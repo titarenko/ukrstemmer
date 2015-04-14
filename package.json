@@ -1,0 +1,34 @@
+{
+  "name": "ukrstemmer",
+  "version": "0.1.0",
+  "description": "Stemmer for Ukrainian language (works good enough for Russian language as well).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -r should tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/titarenko/ukrstemmer.git"
+  },
+  "keywords": [
+    "ukrainian",
+    "language",
+    "stemmer",
+    "ua",
+    "stem",
+    "nlp"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "http1://github.com/titarenko/ukrstemmer/issues"
+  },
+  "homepage": "https://github.com/titarenko/ukrstemmer",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
+  }
+}
